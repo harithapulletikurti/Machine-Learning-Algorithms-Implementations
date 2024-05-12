@@ -1,0 +1,790 @@
+
+                                      ARENA Simulation Results
+                                                ISYE
+
+                                  Summary for Replication 1 of 10
+
+Project: Unnamed Project                                             Run execution date :10/21/2020
+Analyst: ISYE                                                        Model revision date:10/21/2020
+
+Replication ended at time      : 900.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             1.5082     .02160     .50892     7.5242       4514    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000       4514    
+Entity 1.WaitTime                           4.0099     (Corr)     .00000     11.355       4514    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000       4514    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000       4514    
+Entity 1.TotalTime                          5.5182     (Corr)     .61074     16.202       4514    
+Scanner Three.Queue.WaitingTime             1.4584     (Corr)     .00000     6.2500       1021    
+Scanner four.Queue.WaitingTime              1.5168     (Corr)     .00000     6.9273       1116    
+Scanner Two.Queue.WaitingTime               1.6281     (Corr)     .00000     7.2643       1181    
+Check for Proper Identification.Queue.Wait  2.4350     (Corr)     .00000     9.6504       4542    
+Scanner One.Queue.WaitingTime               1.7826     (Corr)     .00000     6.9110       1200    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                28.057     (Corr)     .00000     68.000     61.000    
+ID Checker.NumberBusy                       3.8145     .08253     .00000     4.0000     4.0000    
+ID Checker.NumberScheduled                  4.0000     (Insuf)    4.0000     4.0000     4.0000    
+ID Checker.Utilization                      .95364     .02063     .00000     1.0000     1.0000    
+Scanner 4.NumberBusy                        .93677     (Insuf)    .00000     1.0000     1.0000    
+Scanner 4.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Scanner 4.Utilization                       .93677     (Insuf)    .00000     1.0000     1.0000    
+Scanner 3.NumberBusy                        .85354     (Insuf)    .00000     1.0000     1.0000    
+Scanner 3.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Scanner 3.Utilization                       .85354     (Insuf)    .00000     1.0000     1.0000    
+Scanner 2.NumberBusy                        .98123     (Insuf)    .00000     1.0000     1.0000    
+Scanner 2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Scanner 2.Utilization                       .98123     (Insuf)    .00000     1.0000     1.0000    
+Scanner1.NumberBusy                         .99696     (Insuf)    .00000     1.0000     1.0000    
+Scanner1.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Scanner1.Utilization                        .99696     (Insuf)    .00000     1.0000     1.0000    
+Scanner Three.Queue.NumberInQueue           1.6614     (Corr)     .00000     8.0000     5.0000    
+Scanner four.Queue.NumberInQueue            1.8885     (Corr)     .00000     9.0000     5.0000    
+Scanner Two.Queue.NumberInQueue             2.1426     (Corr)     .00000     9.0000     4.0000    
+Check for Proper Identification.Queue.Numb  12.396     (Corr)     .00000     52.000     33.000    
+Scanner One.Queue.NumberInQueue             2.3856     (Corr)     .00000     9.0000     6.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           4575.0    
+Entity 1.NumberOut                          4514.0    
+ID Checker.NumberSeized                     4542.0    
+ID Checker.ScheduledUtilization             .95364    
+Scanner 4.NumberSeized                      1116.0    
+Scanner 4.ScheduledUtilization              .93677    
+Scanner 3.NumberSeized                      1021.0    
+Scanner 3.ScheduledUtilization              .85354    
+Scanner 2.NumberSeized                      1181.0    
+Scanner 2.ScheduledUtilization              .98123    
+Scanner1.NumberSeized                       1200.0    
+Scanner1.ScheduledUtilization               .99696    
+System.NumberOut                            4514.0    
+
+Beginning replication 2 of 10
+
+                                      ARENA Simulation Results
+                                                ISYE
+
+                                  Summary for Replication 2 of 10
+
+Project: Unnamed Project                                             Run execution date :10/21/2020
+Analyst: ISYE                                                        Model revision date:10/21/2020
+
+Replication ended at time      : 900.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             1.4886     .01778     .52078     7.0314       4419    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000       4419    
+Entity 1.WaitTime                           2.5939     .40971     .00000     11.009       4419    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000       4419    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000       4419    
+Entity 1.TotalTime                          4.0825     .41306     .61829     12.996       4419    
+Scanner Three.Queue.WaitingTime             1.0645     .24019     .00000     4.6598        959    
+Scanner four.Queue.WaitingTime              1.1234     .24114     .00000     5.3997       1085    
+Scanner Two.Queue.WaitingTime               1.2155     .23701     .00000     4.8725       1187    
+Check for Proper Identification.Queue.Wait  1.4097     .34472     .00000     9.0709       4434    
+Scanner One.Queue.WaitingTime               1.3778     .24816     .00000     5.6571       1192    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                20.260     2.8208     .00000     48.000     40.000    
+ID Checker.NumberBusy                       3.6351     .10882     .00000     4.0000     4.0000    
+ID Checker.NumberScheduled                  4.0000     (Insuf)    4.0000     4.0000     4.0000    
+ID Checker.Utilization                      .90878     .02720     .00000     1.0000     1.0000    
+Scanner 4.NumberBusy                        .91236     (Insuf)    .00000     1.0000     1.0000    
+Scanner 4.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Scanner 4.Utilization                       .91236     (Insuf)    .00000     1.0000     1.0000    
+Scanner 3.NumberBusy                        .79546     (Insuf)    .00000     1.0000     1.0000    
+Scanner 3.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Scanner 3.Utilization                       .79546     (Insuf)    .00000     1.0000     1.0000    
+Scanner 2.NumberBusy                        .98422     (Insuf)    .00000     1.0000     1.0000    
+Scanner 2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Scanner 2.Utilization                       .98422     (Insuf)    .00000     1.0000     1.0000    
+Scanner1.NumberBusy                         .99472     (Insuf)    .00000     1.0000     1.0000    
+Scanner1.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Scanner1.Utilization                        .99472     (Insuf)    .00000     1.0000     1.0000    
+Scanner Three.Queue.NumberInQueue           1.1355     .37210     .00000     7.0000     1.0000    
+Scanner four.Queue.NumberInQueue            1.3566     .37060     .00000     7.0000     2.0000    
+Scanner Two.Queue.NumberInQueue             1.6042     .37676     .00000     7.0000     2.0000    
+Check for Proper Identification.Queue.Numb  7.0147     2.1723     .00000     39.000     25.000    
+Scanner One.Queue.NumberInQueue             1.8270     .38088     .00000     7.0000     2.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           4459.0    
+Entity 1.NumberOut                          4419.0    
+ID Checker.NumberSeized                     4434.0    
+ID Checker.ScheduledUtilization             .90878    
+Scanner 4.NumberSeized                      1085.0    
+Scanner 4.ScheduledUtilization              .91236    
+Scanner 3.NumberSeized                      959.00    
+Scanner 3.ScheduledUtilization              .79546    
+Scanner 2.NumberSeized                      1187.0    
+Scanner 2.ScheduledUtilization              .98422    
+Scanner1.NumberSeized                       1192.0    
+Scanner1.ScheduledUtilization               .99472    
+System.NumberOut                            4419.0    
+
+Beginning replication 3 of 10
+
+                                      ARENA Simulation Results
+                                                ISYE
+
+                                  Summary for Replication 3 of 10
+
+Project: Unnamed Project                                             Run execution date :10/21/2020
+Analyst: ISYE                                                        Model revision date:10/21/2020
+
+Replication ended at time      : 900.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             1.4888     .01590     .50640     10.377       4502    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000       4502    
+Entity 1.WaitTime                           4.3923     (Corr)     .00000     12.610       4502    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000       4502    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000       4502    
+Entity 1.TotalTime                          5.8812     (Corr)     .52755     16.485       4502    
+Scanner Three.Queue.WaitingTime             1.5318     (Corr)     .00000     8.2291        995    
+Scanner four.Queue.WaitingTime              1.5582     (Corr)     .00000     8.6549       1129    
+Scanner Two.Queue.WaitingTime               1.6619     (Corr)     .00000     9.1384       1183    
+Check for Proper Identification.Queue.Wait  2.7537     (Corr)     .00000     10.676       4544    
+Scanner One.Queue.WaitingTime               1.8131     (Corr)     .00000     9.4057       1199    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                29.735     (Corr)     .00000     72.000     53.000    
+ID Checker.NumberBusy                       3.7373     (Corr)     .00000     4.0000     4.0000    
+ID Checker.NumberScheduled                  4.0000     (Insuf)    4.0000     4.0000     4.0000    
+ID Checker.Utilization                      .93433     (Corr)     .00000     1.0000     1.0000    
+Scanner 4.NumberBusy                        .93272     (Insuf)    .00000     1.0000     1.0000    
+Scanner 4.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Scanner 4.Utilization                       .93272     (Insuf)    .00000     1.0000     1.0000    
+Scanner 3.NumberBusy                        .82233     (Insuf)    .00000     1.0000     1.0000    
+Scanner 3.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Scanner 3.Utilization                       .82233     (Insuf)    .00000     1.0000     1.0000    
+Scanner 2.NumberBusy                        .98525     (Insuf)    .00000     1.0000     1.0000    
+Scanner 2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Scanner 2.Utilization                       .98525     (Insuf)    .00000     1.0000     1.0000    
+Scanner1.NumberBusy                         .99690     (Insuf)    .00000     1.0000     1.0000    
+Scanner1.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Scanner1.Utilization                        .99690     (Insuf)    .00000     1.0000     1.0000    
+Scanner Three.Queue.NumberInQueue           1.7125     (Corr)     .00000     11.000     9.0000    
+Scanner four.Queue.NumberInQueue            1.9780     (Corr)     .00000     12.000     9.0000    
+Scanner Two.Queue.NumberInQueue             2.2067     (Corr)     .00000     12.000     8.0000    
+Check for Proper Identification.Queue.Numb  13.924     (Corr)     .00000     62.000     11.000    
+Scanner One.Queue.NumberInQueue             2.4394     (Corr)     .00000     12.000     8.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           4555.0    
+Entity 1.NumberOut                          4502.0    
+ID Checker.NumberSeized                     4544.0    
+ID Checker.ScheduledUtilization             .93433    
+Scanner 4.NumberSeized                      1129.0    
+Scanner 4.ScheduledUtilization              .93272    
+Scanner 3.NumberSeized                      995.00    
+Scanner 3.ScheduledUtilization              .82233    
+Scanner 2.NumberSeized                      1183.0    
+Scanner 2.ScheduledUtilization              .98525    
+Scanner1.NumberSeized                       1199.0    
+Scanner1.ScheduledUtilization               .99690    
+System.NumberOut                            4502.0    
+
+Beginning replication 4 of 10
+
+                                      ARENA Simulation Results
+                                                ISYE
+
+                                  Summary for Replication 4 of 10
+
+Project: Unnamed Project                                             Run execution date :10/21/2020
+Analyst: ISYE                                                        Model revision date:10/21/2020
+
+Replication ended at time      : 900.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             1.4967     .02573     .51311     6.8846       4429    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000       4429    
+Entity 1.WaitTime                           3.6370     (Corr)     .00000     12.731       4429    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000       4429    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000       4429    
+Entity 1.TotalTime                          5.1337     (Corr)     .59487     14.479       4429    
+Scanner Three.Queue.WaitingTime             1.2205     (Corr)     .00000     5.3914        960    
+Scanner four.Queue.WaitingTime              1.2478     (Corr)     .00000     5.0793       1097    
+Scanner Two.Queue.WaitingTime               1.3631     (Corr)     .00000     5.2588       1170    
+Check for Proper Identification.Queue.Wait  2.2929     (Corr)     .00000     10.438       4437    
+Scanner One.Queue.WaitingTime               1.4947     (Corr)     .00000     5.5282       1205    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                25.274     (Corr)     .00000     72.000     8.0000    
+ID Checker.NumberBusy                       3.6808     .12104     .00000     4.0000     4.0000    
+ID Checker.NumberScheduled                  4.0000     (Insuf)    4.0000     4.0000     4.0000    
+ID Checker.Utilization                      .92020     .03026     .00000     1.0000     1.0000    
+Scanner 4.NumberBusy                        .91813     (Insuf)    .00000     1.0000     1.0000    
+Scanner 4.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Scanner 4.Utilization                       .91813     (Insuf)    .00000     1.0000     1.0000    
+Scanner 3.NumberBusy                        .80090     (Insuf)    .00000     1.0000     .00000    
+Scanner 3.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Scanner 3.Utilization                       .80090     (Insuf)    .00000     1.0000     .00000    
+Scanner 2.NumberBusy                        .97933     (Insuf)    .00000     1.0000     1.0000    
+Scanner 2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Scanner 2.Utilization                       .97933     (Insuf)    .00000     1.0000     1.0000    
+Scanner1.NumberBusy                         .99406     (Insuf)    .00000     1.0000     1.0000    
+Scanner1.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Scanner1.Utilization                        .99406     (Insuf)    .00000     1.0000     1.0000    
+Scanner Three.Queue.NumberInQueue           1.3019     .39667     .00000     6.0000     .00000    
+Scanner four.Queue.NumberInQueue            1.5210     .39266     .00000     6.0000     .00000    
+Scanner Two.Queue.NumberInQueue             1.7730     .39653     .00000     7.0000     1.0000    
+Check for Proper Identification.Queue.Numb  11.304     (Corr)     .00000     62.000     .00000    
+Scanner One.Queue.NumberInQueue             2.0012     .40395     .00000     7.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           4437.0    
+Entity 1.NumberOut                          4429.0    
+ID Checker.NumberSeized                     4437.0    
+ID Checker.ScheduledUtilization             .92020    
+Scanner 4.NumberSeized                      1097.0    
+Scanner 4.ScheduledUtilization              .91813    
+Scanner 3.NumberSeized                      960.00    
+Scanner 3.ScheduledUtilization              .80090    
+Scanner 2.NumberSeized                      1170.0    
+Scanner 2.ScheduledUtilization              .97933    
+Scanner1.NumberSeized                       1205.0    
+Scanner1.ScheduledUtilization               .99406    
+System.NumberOut                            4429.0    
+
+Beginning replication 5 of 10
+
+                                      ARENA Simulation Results
+                                                ISYE
+
+                                  Summary for Replication 5 of 10
+
+Project: Unnamed Project                                             Run execution date :10/21/2020
+Analyst: ISYE                                                        Model revision date:10/21/2020
+
+Replication ended at time      : 900.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             1.4959     .03091     .51274     7.1201       4475    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000       4475    
+Entity 1.WaitTime                           4.5066     (Corr)     .00000     18.675       4475    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000       4475    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000       4475    
+Entity 1.TotalTime                          6.0026     (Corr)     .69317     22.129       4475    
+Scanner Three.Queue.WaitingTime             1.6257     (Corr)     .00000     6.4474        991    
+Scanner four.Queue.WaitingTime              1.6326     (Corr)     .00000     7.1534       1116    
+Scanner Two.Queue.WaitingTime               1.7245     (Corr)     .00000     7.6711       1182    
+Check for Proper Identification.Queue.Wait  2.8200     (Corr)     .00000     14.969       4509    
+Scanner One.Queue.WaitingTime               1.8851     (Corr)     .00000     7.8472       1190    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                30.360     (Corr)     .00000     104.00     66.000    
+ID Checker.NumberBusy                       3.7347     .08955     .00000     4.0000     4.0000    
+ID Checker.NumberScheduled                  4.0000     (Insuf)    4.0000     4.0000     4.0000    
+ID Checker.Utilization                      .93369     .02239     .00000     1.0000     1.0000    
+Scanner 4.NumberBusy                        .93124     (Insuf)    .00000     1.0000     1.0000    
+Scanner 4.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Scanner 4.Utilization                       .93124     (Insuf)    .00000     1.0000     1.0000    
+Scanner 3.NumberBusy                        .82303     (Insuf)    .00000     1.0000     1.0000    
+Scanner 3.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Scanner 3.Utilization                       .82303     (Insuf)    .00000     1.0000     1.0000    
+Scanner 2.NumberBusy                        .98389     (Insuf)    .00000     1.0000     1.0000    
+Scanner 2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Scanner 2.Utilization                       .98389     (Insuf)    .00000     1.0000     1.0000    
+Scanner1.NumberBusy                         .99472     (Insuf)    .00000     1.0000     1.0000    
+Scanner1.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Scanner1.Utilization                        .99472     (Insuf)    .00000     1.0000     1.0000    
+Scanner Three.Queue.NumberInQueue           1.8132     (Corr)     .00000     9.0000     6.0000    
+Scanner four.Queue.NumberInQueue            2.0444     (Corr)     .00000     9.0000     6.0000    
+Scanner Two.Queue.NumberInQueue             2.2873     (Corr)     .00000     10.000     7.0000    
+Check for Proper Identification.Queue.Numb  14.232     (Corr)     .00000     90.000     32.000    
+Scanner One.Queue.NumberInQueue             2.5149     (Corr)     .00000     10.000     7.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           4541.0    
+Entity 1.NumberOut                          4475.0    
+ID Checker.NumberSeized                     4509.0    
+ID Checker.ScheduledUtilization             .93369    
+Scanner 4.NumberSeized                      1116.0    
+Scanner 4.ScheduledUtilization              .93124    
+Scanner 3.NumberSeized                      991.00    
+Scanner 3.ScheduledUtilization              .82303    
+Scanner 2.NumberSeized                      1182.0    
+Scanner 2.ScheduledUtilization              .98389    
+Scanner1.NumberSeized                       1190.0    
+Scanner1.ScheduledUtilization               .99472    
+System.NumberOut                            4475.0    
+
+Beginning replication 6 of 10
+
+                                      ARENA Simulation Results
+                                                ISYE
+
+                                  Summary for Replication 6 of 10
+
+Project: Unnamed Project                                             Run execution date :10/21/2020
+Analyst: ISYE                                                        Model revision date:10/21/2020
+
+Replication ended at time      : 900.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             1.4706     .02123     .52665     6.3416       4560    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000       4560    
+Entity 1.WaitTime                           4.0568     (Corr)     .00000     11.809       4560    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000       4560    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000       4560    
+Entity 1.TotalTime                          5.5275     (Corr)     .66893     14.925       4560    
+Scanner Three.Queue.WaitingTime             2.2081     (Corr)     .00000     7.6823       1036    
+Scanner four.Queue.WaitingTime              2.1804     (Corr)     .00000     7.7324       1145    
+Scanner Two.Queue.WaitingTime               2.2983     (Corr)     .00000     7.8765       1184    
+Check for Proper Identification.Queue.Wait  1.7654     (Corr)     .00000     8.7911       4568    
+Scanner One.Queue.WaitingTime               2.4474     (Corr)     .00000     7.6136       1197    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                28.013     (Corr)     .00000     70.000     9.0000    
+ID Checker.NumberBusy                       3.6475     .12296     .00000     4.0000     4.0000    
+ID Checker.NumberScheduled                  4.0000     (Insuf)    4.0000     4.0000     4.0000    
+ID Checker.Utilization                      .91189     .03074     .00000     1.0000     1.0000    
+Scanner 4.NumberBusy                        .95365     (Insuf)    .00000     1.0000     .00000    
+Scanner 4.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Scanner 4.Utilization                       .95365     (Insuf)    .00000     1.0000     .00000    
+Scanner 3.NumberBusy                        .87173     (Insuf)    .00000     1.0000     .00000    
+Scanner 3.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Scanner 3.Utilization                       .87173     (Insuf)    .00000     1.0000     .00000    
+Scanner 2.NumberBusy                        .98741     (Insuf)    .00000     1.0000     1.0000    
+Scanner 2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Scanner 2.Utilization                       .98741     (Insuf)    .00000     1.0000     1.0000    
+Scanner1.NumberBusy                         .99707     (Insuf)    .00000     1.0000     1.0000    
+Scanner1.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Scanner1.Utilization                        .99707     (Insuf)    .00000     1.0000     1.0000    
+Scanner Three.Queue.NumberInQueue           2.5418     (Corr)     .00000     11.000     .00000    
+Scanner four.Queue.NumberInQueue            2.7739     (Corr)     .00000     11.000     .00000    
+Scanner Two.Queue.NumberInQueue             3.0242     (Corr)     .00000     11.000     1.0000    
+Check for Proper Identification.Queue.Numb  8.9607     (Corr)     .00000     45.000     1.0000    
+Scanner One.Queue.NumberInQueue             3.2557     (Corr)     .00000     11.000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           4569.0    
+Entity 1.NumberOut                          4560.0    
+ID Checker.NumberSeized                     4568.0    
+ID Checker.ScheduledUtilization             .91189    
+Scanner 4.NumberSeized                      1145.0    
+Scanner 4.ScheduledUtilization              .95365    
+Scanner 3.NumberSeized                      1036.0    
+Scanner 3.ScheduledUtilization              .87173    
+Scanner 2.NumberSeized                      1184.0    
+Scanner 2.ScheduledUtilization              .98741    
+Scanner1.NumberSeized                       1197.0    
+Scanner1.ScheduledUtilization               .99707    
+System.NumberOut                            4560.0    
+
+Beginning replication 7 of 10
+
+                                      ARENA Simulation Results
+                                                ISYE
+
+                                  Summary for Replication 7 of 10
+
+Project: Unnamed Project                                             Run execution date :10/21/2020
+Analyst: ISYE                                                        Model revision date:10/21/2020
+
+Replication ended at time      : 900.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             1.5157     .02631     .51292     7.8067       4447    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000       4447    
+Entity 1.WaitTime                           4.6182     (Corr)     .00000     12.925       4447    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000       4447    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000       4447    
+Entity 1.TotalTime                          6.1339     (Corr)     .64256     15.782       4447    
+Scanner Three.Queue.WaitingTime             1.4010     (Corr)     .00000     5.8404        957    
+Scanner four.Queue.WaitingTime              1.3893     (Corr)     .00000     6.2731       1118    
+Scanner Two.Queue.WaitingTime               1.4948     (Corr)     .00000     7.0151       1179    
+Check for Proper Identification.Queue.Wait  3.1307     (Corr)     .00000     11.077       4463    
+Scanner One.Queue.WaitingTime               1.6508     (Corr)     .00000     6.6456       1197    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                30.427     (Corr)     .00000     68.000     33.000    
+ID Checker.NumberBusy                       3.8026     (Corr)     .00000     4.0000     4.0000    
+ID Checker.NumberScheduled                  4.0000     (Insuf)    4.0000     4.0000     4.0000    
+ID Checker.Utilization                      .95067     (Corr)     .00000     1.0000     1.0000    
+Scanner 4.NumberBusy                        .92051     (Insuf)    .00000     1.0000     1.0000    
+Scanner 4.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Scanner 4.Utilization                       .92051     (Insuf)    .00000     1.0000     1.0000    
+Scanner 3.NumberBusy                        .80020     (Insuf)    .00000     1.0000     1.0000    
+Scanner 3.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Scanner 3.Utilization                       .80020     (Insuf)    .00000     1.0000     1.0000    
+Scanner 2.NumberBusy                        .97955     (Insuf)    .00000     1.0000     1.0000    
+Scanner 2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Scanner 2.Utilization                       .97955     (Insuf)    .00000     1.0000     1.0000    
+Scanner1.NumberBusy                         .99722     (Insuf)    .00000     1.0000     1.0000    
+Scanner1.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Scanner1.Utilization                        .99722     (Insuf)    .00000     1.0000     1.0000    
+Scanner Three.Queue.NumberInQueue           1.4902     (Corr)     .00000     8.0000     2.0000    
+Scanner four.Queue.NumberInQueue            1.7267     (Corr)     .00000     9.0000     2.0000    
+Scanner Two.Queue.NumberInQueue             1.9587     (Corr)     .00000     9.0000     2.0000    
+Check for Proper Identification.Queue.Numb  15.555     (Corr)     .00000     57.000     17.000    
+Scanner One.Queue.NumberInQueue             2.1966     (Corr)     .00000     9.0000     2.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           4480.0    
+Entity 1.NumberOut                          4447.0    
+ID Checker.NumberSeized                     4463.0    
+ID Checker.ScheduledUtilization             .95067    
+Scanner 4.NumberSeized                      1118.0    
+Scanner 4.ScheduledUtilization              .92051    
+Scanner 3.NumberSeized                      957.00    
+Scanner 3.ScheduledUtilization              .80020    
+Scanner 2.NumberSeized                      1179.0    
+Scanner 2.ScheduledUtilization              .97955    
+Scanner1.NumberSeized                       1197.0    
+Scanner1.ScheduledUtilization               .99722    
+System.NumberOut                            4447.0    
+
+Beginning replication 8 of 10
+
+                                      ARENA Simulation Results
+                                                ISYE
+
+                                  Summary for Replication 8 of 10
+
+Project: Unnamed Project                                             Run execution date :10/21/2020
+Analyst: ISYE                                                        Model revision date:10/21/2020
+
+Replication ended at time      : 900.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             1.4867     .02352     .51035     7.3958       4424    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000       4424    
+Entity 1.WaitTime                           2.7607     (Corr)     .00000     10.564       4424    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000       4424    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000       4424    
+Entity 1.TotalTime                          4.2474     (Corr)     .58255     13.249       4424    
+Scanner Three.Queue.WaitingTime             1.3504     (Corr)     .00000     5.7236        959    
+Scanner four.Queue.WaitingTime              1.3760     (Corr)     .00000     5.4409       1108    
+Scanner Two.Queue.WaitingTime               1.4745     (Corr)     .00000     5.9127       1175    
+Check for Proper Identification.Queue.Wait  1.2981     (Corr)     .00000     8.4030       4445    
+Scanner One.Queue.WaitingTime               1.6438     (Corr)     .00000     6.2530       1186    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                20.982     3.2190     .00000     58.000     29.000    
+ID Checker.NumberBusy                       3.6095     .14378     .00000     4.0000     4.0000    
+ID Checker.NumberScheduled                  4.0000     (Insuf)    4.0000     4.0000     4.0000    
+ID Checker.Utilization                      .90238     .03594     .00000     1.0000     1.0000    
+Scanner 4.NumberBusy                        .92481     (Insuf)    .00000     1.0000     1.0000    
+Scanner 4.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Scanner 4.Utilization                       .92481     (Insuf)    .00000     1.0000     1.0000    
+Scanner 3.NumberBusy                        .81234     (Insuf)    .00000     1.0000     1.0000    
+Scanner 3.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Scanner 3.Utilization                       .81234     (Insuf)    .00000     1.0000     1.0000    
+Scanner 2.NumberBusy                        .98102     (Insuf)    .00000     1.0000     1.0000    
+Scanner 2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Scanner 2.Utilization                       .98102     (Insuf)    .00000     1.0000     1.0000    
+Scanner1.NumberBusy                         .99702     (Insuf)    .00000     1.0000     1.0000    
+Scanner1.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Scanner1.Utilization                        .99702     (Insuf)    .00000     1.0000     1.0000    
+Scanner Three.Queue.NumberInQueue           1.4418     (Corr)     .00000     7.0000     3.0000    
+Scanner four.Queue.NumberInQueue            1.6975     (Corr)     .00000     8.0000     3.0000    
+Scanner Two.Queue.NumberInQueue             1.9291     (Corr)     .00000     8.0000     3.0000    
+Check for Proper Identification.Queue.Numb  6.4185     2.4808     .00000     44.000     8.0000    
+Scanner One.Queue.NumberInQueue             2.1705     (Corr)     .00000     8.0000     4.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           4453.0    
+Entity 1.NumberOut                          4424.0    
+ID Checker.NumberSeized                     4445.0    
+ID Checker.ScheduledUtilization             .90238    
+Scanner 4.NumberSeized                      1108.0    
+Scanner 4.ScheduledUtilization              .92481    
+Scanner 3.NumberSeized                      959.00    
+Scanner 3.ScheduledUtilization              .81234    
+Scanner 2.NumberSeized                      1175.0    
+Scanner 2.ScheduledUtilization              .98102    
+Scanner1.NumberSeized                       1186.0    
+Scanner1.ScheduledUtilization               .99702    
+System.NumberOut                            4424.0    
+
+Beginning replication 9 of 10
+
+                                      ARENA Simulation Results
+                                                ISYE
+
+                                  Summary for Replication 9 of 10
+
+Project: Unnamed Project                                             Run execution date :10/21/2020
+Analyst: ISYE                                                        Model revision date:10/21/2020
+
+Replication ended at time      : 900.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             1.5048     .01936     .51526     6.5750       4539    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000       4539    
+Entity 1.WaitTime                           4.4378     (Corr)     .00000     13.971       4539    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000       4539    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000       4539    
+Entity 1.TotalTime                          5.9426     (Corr)     .62680     15.811       4539    
+Scanner Three.Queue.WaitingTime             1.5476     (Corr)     .00000     5.2878       1021    
+Scanner four.Queue.WaitingTime              1.5871     (Corr)     .00000     5.9204       1128    
+Scanner Two.Queue.WaitingTime               1.7011     (Corr)     .00000     5.9577       1192    
+Check for Proper Identification.Queue.Wait  2.7481     (Corr)     .00000     9.9481       4557    
+Scanner One.Queue.WaitingTime               1.8647     (Corr)     .00000     6.0744       1202    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                30.026     (Corr)     .00000     78.000     25.000    
+ID Checker.NumberBusy                       3.8347     .07360     .00000     4.0000     4.0000    
+ID Checker.NumberScheduled                  4.0000     (Insuf)    4.0000     4.0000     4.0000    
+ID Checker.Utilization                      .95869     .01840     .00000     1.0000     1.0000    
+Scanner 4.NumberBusy                        .93945     (Insuf)    .00000     1.0000     1.0000    
+Scanner 4.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Scanner 4.Utilization                       .93945     (Insuf)    .00000     1.0000     1.0000    
+Scanner 3.NumberBusy                        .84906     (Insuf)    .00000     1.0000     1.0000    
+Scanner 3.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Scanner 3.Utilization                       .84906     (Insuf)    .00000     1.0000     1.0000    
+Scanner 2.NumberBusy                        .98709     (Insuf)    .00000     1.0000     1.0000    
+Scanner 2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Scanner 2.Utilization                       .98709     (Insuf)    .00000     1.0000     1.0000    
+Scanner1.NumberBusy                         .99887     (Insuf)    .00000     1.0000     1.0000    
+Scanner1.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Scanner1.Utilization                        .99887     (Insuf)    .00000     1.0000     1.0000    
+Scanner Three.Queue.NumberInQueue           1.7571     (Corr)     .00000     8.0000     2.0000    
+Scanner four.Queue.NumberInQueue            1.9921     (Corr)     .00000     8.0000     3.0000    
+Scanner Two.Queue.NumberInQueue             2.2563     (Corr)     .00000     9.0000     3.0000    
+Check for Proper Identification.Queue.Numb  13.918     (Corr)     .00000     54.000     7.0000    
+Scanner One.Queue.NumberInQueue             2.4925     (Corr)     .00000     9.0000     2.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           4564.0    
+Entity 1.NumberOut                          4539.0    
+ID Checker.NumberSeized                     4557.0    
+ID Checker.ScheduledUtilization             .95869    
+Scanner 4.NumberSeized                      1128.0    
+Scanner 4.ScheduledUtilization              .93945    
+Scanner 3.NumberSeized                      1021.0    
+Scanner 3.ScheduledUtilization              .84906    
+Scanner 2.NumberSeized                      1192.0    
+Scanner 2.ScheduledUtilization              .98709    
+Scanner1.NumberSeized                       1202.0    
+Scanner1.ScheduledUtilization               .99887    
+System.NumberOut                            4539.0    
+
+Beginning replication 10 of 10
+
+                                      ARENA Simulation Results
+                                                ISYE
+
+                                  Summary for Replication 10 of 10
+
+Project: Unnamed Project                                             Run execution date :10/21/2020
+Analyst: ISYE                                                        Model revision date:10/21/2020
+
+Replication ended at time      : 900.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             1.4991     .02264     .51864     5.9632       4412    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000       4412    
+Entity 1.WaitTime                           2.6814     (Corr)     .00000     7.7088       4412    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000       4412    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000       4412    
+Entity 1.TotalTime                          4.1806     (Corr)     .58499     11.741       4412    
+Scanner Three.Queue.WaitingTime             1.1255     (Corr)     .00000     4.9971        934    
+Scanner four.Queue.WaitingTime              1.1348     .28970     .00000     6.8614       1104    
+Scanner Two.Queue.WaitingTime               1.2436     .24591     .00000     5.1770       1183    
+Check for Proper Identification.Queue.Wait  1.4387     .36740     .00000     5.9152       4421    
+Scanner One.Queue.WaitingTime               1.4204     (Corr)     .00000     5.3596       1194    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                20.505     (Corr)     .00000     45.000     9.0000    
+ID Checker.NumberBusy                       3.6885     .09390     .00000     4.0000     3.0000    
+ID Checker.NumberScheduled                  4.0000     (Insuf)    4.0000     4.0000     4.0000    
+ID Checker.Utilization                      .92213     .02347     .00000     1.0000     .75000    
+Scanner 4.NumberBusy                        .91131     (Insuf)    .00000     1.0000     1.0000    
+Scanner 4.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Scanner 4.Utilization                       .91131     (Insuf)    .00000     1.0000     1.0000    
+Scanner 3.NumberBusy                        .78521     (Insuf)    .00000     1.0000     .00000    
+Scanner 3.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Scanner 3.Utilization                       .78521     (Insuf)    .00000     1.0000     .00000    
+Scanner 2.NumberBusy                        .97730     (Insuf)    .00000     1.0000     1.0000    
+Scanner 2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Scanner 2.Utilization                       .97730     (Insuf)    .00000     1.0000     1.0000    
+Scanner1.NumberBusy                         .99543     (Insuf)    .00000     1.0000     1.0000    
+Scanner1.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Scanner1.Utilization                        .99543     (Insuf)    .00000     1.0000     1.0000    
+Scanner Three.Queue.NumberInQueue           1.1680     (Corr)     .00000     7.0000     .00000    
+Scanner four.Queue.NumberInQueue            1.3920     (Corr)     .00000     8.0000     1.0000    
+Scanner Two.Queue.NumberInQueue             1.6353     (Corr)     .00000     8.0000     1.0000    
+Check for Proper Identification.Queue.Numb  7.0676     2.1832     .00000     31.000     .00000    
+Scanner One.Queue.NumberInQueue             1.8847     (Corr)     .00000     8.0000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           4421.0    
+Entity 1.NumberOut                          4412.0    
+ID Checker.NumberSeized                     4421.0    
+ID Checker.ScheduledUtilization             .92213    
+Scanner 4.NumberSeized                      1104.0    
+Scanner 4.ScheduledUtilization              .91131    
+Scanner 3.NumberSeized                      934.00    
+Scanner 3.ScheduledUtilization              .78521    
+Scanner 2.NumberSeized                      1183.0    
+Scanner 2.ScheduledUtilization              .97730    
+Scanner1.NumberSeized                       1194.0    
+Scanner1.ScheduledUtilization               .99543    
+System.NumberOut                            4412.0    
+
+
+                                      ARENA Simulation Results
+                                                ISYE
+
+                                 Output Summary for 10 Replications
+
+Project: Unnamed Project                                             Run execution date :10/21/2020
+Analyst: ISYE                                                        Model revision date:10/21/2020
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+Entity 1.NumberIn                           4505.4     43.573     4421.0     4575.0     10
+Entity 1.NumberOut                          4472.1     38.515     4412.0     4560.0     10
+ID Checker.NumberSeized                     4492.0     41.280     4421.0     4568.0     10
+ID Checker.ScheduledUtilization             .92964     .01419     .90238     .95869     10
+Scanner 4.NumberSeized                      1114.6     12.316     1085.0     1145.0     10
+Scanner 4.ScheduledUtilization              .92809     .00949     .91131     .95365     10
+Scanner 3.NumberSeized                      983.30     24.620     934.00     1036.0     10
+Scanner 3.ScheduledUtilization              .82138     .02033     .78521     .87173     10
+Scanner 2.NumberSeized                      1181.6     4.3471     1170.0     1192.0     10
+Scanner 2.ScheduledUtilization              .98263     .00247     .97730     .98741     10
+Scanner1.NumberSeized                       1196.2     4.1270     1186.0     1205.0     10
+Scanner1.ScheduledUtilization               .99630     .00107     .99406     .99887     10
+System.NumberOut                            4472.1     38.515     4412.0     4560.0     10
+
+Simulation run time: 1.88 minutes.
+Simulation run complete.

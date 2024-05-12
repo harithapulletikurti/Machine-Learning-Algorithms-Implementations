@@ -1,0 +1,20 @@
+[RESOURCES]
+ID Checker
+Scanner 4
+Scanner 3
+Scanner 2
+Scanner1
+[VARIABLES]
+Scanner Three.NumberOut
+Scanner Three.NumberIn
+Check for Proper Identification.NumberOut
+Scanner four.NumberOut
+Passsenger Arrive to Security Check.NumberOut
+Scanner One.NumberOut
+Scanner One.NumberIn
+Scanner Two.NumberOut
+Scanner Two.NumberIn
+Check for Proper Identification.NumberIn
+Scanner four.NumberIn
+Cleared.NumberOut
+Denied.NumberOut
